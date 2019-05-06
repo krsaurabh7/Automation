@@ -18,6 +18,8 @@
     <groupId>com.test.project</groupId>
     <artifactId>testAutomation</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>AutomationFramework</name>
+    <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
             <groupId>info.cukes</groupId>

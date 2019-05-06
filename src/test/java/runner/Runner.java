@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 import java.io.File;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "features", glue = {"stepDefinition"},
+@CucumberOptions(features = "src/test/resources/features", glue = {"stepDefinition"},
         plugin = { "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:cucumber-reports/report.html"},
         monochrome = true
 )
